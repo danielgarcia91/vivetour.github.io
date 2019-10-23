@@ -334,6 +334,10 @@ h1, h2, h3, h4, h5,
   padding: 1px 30px;
 }
 
+.mb-lg-0 {
+  margin-bottom: 4rem !important;
+}
+
 /* Navbar */
 .site-logo {
   font-size: 2rem;

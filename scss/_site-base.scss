@@ -304,3 +304,57 @@ h1, h2, h3, h4, h5,
 	}
 }
 
+.two-column {
+	div {
+		padding: 6rem 4rem !important;
+	}
+}
+
+.intro-section {
+	background-position: center;
+
+	h1 {
+		font-size: 6rem !important;
+		font-weight: bold!important;
+		span {
+			color: #ffab00;
+		}
+	}
+	a.btn-primary
+		 {
+			border: 2px solid #fff;
+			background: transparent !important;
+			font-weight: bold!important;
+
+			&:hover {
+				background: #ffab00!important;
+			}
+	}
+}
+.service-39381 {
+	position: relative;
+	margin-bottom: 3rem!important;
+	img.img-fluid {
+			padding: 1rem auto!important;
+			width: 100%!important;
+		
+	}
+	.price{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.service-image{
+		background-position: center;
+		background-size: cover;
+		height: 200px;
+		position: relative;
+
+		.category {
+			position: absolute;
+			background: #fff;
+			transform: rotateZ(270deg)translateY(-165%)translateX(-80px);
+			padding: 1px 30px;
+		}
+	}
+}
